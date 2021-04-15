@@ -1,21 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     background-color: lightgray;
 }
 
 p{
-    font-family: monospace
+    font-family: cursive;
+    padding: 30px;
 }
 
 
 .pageTitle{
     color: green;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 .Author{
-    width: 100px;
-    height: 130px;
-    padding: 20px;
+    width: 150;
+    height: 180px;
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
 }
 
 .authorText{
     font-size: 16px;
+    font-family: sans-serif;
+    margin-left: 20px;
+}
+
+.a1h{
+    margin-bottom: 10px;
+}
+
+.a1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.a1date{
+    margin-bottom: -40px;
+    color: grey;
 }
