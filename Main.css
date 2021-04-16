@@ -5,11 +5,10 @@
 }
 
 body{
-    background-color: lightgray;
+   
 }
 
 p{
-    font-family: cursive;
     padding: 30px;
 }
 
@@ -18,6 +17,7 @@ p{
     color: green;
     margin-bottom: 20px;
     margin-top: 20px;
+    margin-left: 30px;
 }
 .Author{
     width: 150;
@@ -35,6 +35,7 @@ p{
 
 .a1h{
     margin-bottom: 10px;
+    margin-left: 30px;
 }
 
 .a1{
@@ -45,4 +46,74 @@ p{
 .a1date{
     margin-bottom: -40px;
     color: grey;
+}
+
+
+/**********************************************************************************/
+/*Nav Bar                                                                         */
+/**********************************************************************************/
+
+.search{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0)), url(Images/Games-controller.jpg);
+    background-position: center;
+    height: 400px;
+    padding: 100px;
+    
+}
+
+.buttons{
+    margin-left: 50px;
+    margin-top: 20px;
+    
+}
+
+.GDM{
+    padding: 10px;
+    background-color: orange;
+    color: white;
+    font-family: fantasy;
+    text-decoration: none;
+    border-radius: 200px;
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  font-family: arial;
+  text-align: left;
+  width: 100%;
+  position: sticky;
+  top: 0;
+}
+ul.topnav li {float: left;}
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float: left;
+  font-size: 17px;
+  border-right: 1px solid #bbb;
+}
+ul.topnav li a:hover:not(.active) {
+	background-color: #ddd;
+    color: black;
+}
+ul.topnav li a.active {
+	background-color: #4CAF50;
+}
+ul.topnav li.right {
+	float: right;
+}
+@media screen and (max-width: 720px) {
+  ul.topnav li{
+	  width: 100%;
+  }
+  ul.topnav a{
+	  width: 100%;
+  }
 }
