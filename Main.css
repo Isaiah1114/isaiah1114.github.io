@@ -48,6 +48,19 @@ p{
     color: grey;
 }
 
+.sideAd{
+    margin-left: 20px;
+    display: block;
+    float: right;
+}
+
+.adbox{
+    display: inline-block;
+    float: right;
+    padding-top:10%;
+    padding-bottom: 10%;
+    right: 5px;
+}
 
 /**********************************************************************************/
 /*Nav Bar                                                                         */
