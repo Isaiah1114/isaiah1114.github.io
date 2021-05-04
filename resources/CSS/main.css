@@ -16,7 +16,31 @@
     font-family: 'Noto Sans JP', sans-serif;
 }
 
+.home-button{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: aqua;
+    color:aqua;
+    width: 75px;
+    border-radius: 20px;
+    text-decoration: none;
+}
 
+.blog-button{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: aqua;
+    color:aqua;
+    width: 75px;
+    border-radius: 20px;
+    text-decoration: none;
+}
 
 .social{
     margin: auto;
@@ -63,16 +87,16 @@
 
 
 ul.topnav {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-  font-family: arial;
-  text-align: left;
-  width: 100%;
-  position: sticky;
-  top: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-family: arial;
+    text-align: left;
+    width: 100%;
+    position: sticky;
+    top: 0;
 }
 ul.topnav li {float: left;}
 ul.topnav li a {
