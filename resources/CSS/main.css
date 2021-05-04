@@ -32,9 +32,9 @@
 }
 
 .content{
-    background-color: lightgrey;
+    
     margin: auto;
-    width: 80%;
+    width: 50%;
     padding: 10px;
     margin-bottom: 10px;
 }
@@ -43,12 +43,18 @@
     background-color: #333;
     padding = 10px;
     color: white;
+    text-align: center;
+    height: 20vw;
+}
+
+.row-one, .row-two, .row-three{
+    width: 100%;
 }
 
 .contentAd{
-    margin: auto;
-    width: 20%;
-    border: 1px blue;
+    margin: 1%;
+    width: 30%;
+    height: 250px;
 }
 
 /***********************************************************************/
