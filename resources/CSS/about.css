@@ -2,16 +2,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 .header{
     background-color: blue;
     padding: 20vw;
     text-align: center;
-    background-image: url(../Pictures/donny-jiang-EH_aX__-wG0-unsplash.jpg);
+    background-image: url(../Pictures/ComputerSetup.jpg);
     background-position: right;
     background-size: cover;
-    color: aqua;
+    color: red;
     font-weight: bold;
     font-family: 'Noto Sans JP', sans-serif;
 }
@@ -35,8 +36,8 @@
     position: absolute;
     border-style: solid;
     border-width: 2px;
-    border-color: aqua;
-    color:aqua;
+    border-color: red;
+    color:red;
     width: 75px;
     border-radius: 20px;
     text-decoration: none;
@@ -61,6 +62,7 @@
     width: 50%;
     padding: 10px;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .footer{
