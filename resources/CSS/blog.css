@@ -5,7 +5,6 @@
 }
 
 body{
-   
 }
 
 p{
@@ -14,24 +13,28 @@ p{
 
 
 .pageTitle{
-    color: green;
+    color: darkblue;
     margin-bottom: 20px;
     margin-top: 20px;
     margin-left: 30px;
 }
 .Author{
-    width: 150;
-    height: 180px;
+    width: 150px;
+    height: 150px;
     margin-top: 20px;
     margin-left: 20px;
-    float: left;
+    border-radius: 100px;
+    border: 2px solid grey;
 }
 
 
 .authorText{
+    display: inline-block;
     font-size: 16px;
     font-family: sans-serif;
-    margin-left: 20px;
+    margin-top: 75px;
+    margin-left: 15px;
+    position: absolute;
 }
 
 .a1h{
@@ -105,16 +108,16 @@ ul.topnav {
 ul.topnav li {float: left;}
 ul.topnav li a {
   display: block;
-  color: white;
+  color: aqua;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   float: left;
   font-size: 17px;
-  border-right: 1px solid #bbb;
+  border-right: 1px solid aqua;
 }
 ul.topnav li a:hover:not(.active) {
-	background-color: #ddd;
+	background-color: white;
     color: black;
 }
 ul.topnav li a.active {
