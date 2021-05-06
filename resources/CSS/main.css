@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 .header{
@@ -76,11 +77,17 @@
 }
 
 .contentAd{
+    text-align: center;
+    display: inline-block;
     width: 30%;
 }
 
 .contentAd:hover{
     opacity: 75%;
+}
+
+.adPic{
+    width: 90%;
 }
 
 /***********************************************************************/
