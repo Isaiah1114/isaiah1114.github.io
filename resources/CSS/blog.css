@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 body{
@@ -70,67 +71,30 @@ p{
 /*Nav Bar                                                                         */
 /**********************************************************************************/
 
-.search{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0)), url(Images/Games-controller.jpg);
-    background-position: center;
-    height: 400px;
-    padding: 100px;
-    
-}
-
-.buttons{
-    margin-left: 50px;
-    margin-top: 20px;
-    
-}
-
-.GDM{
-    padding: 10px;
-    background-color: orange;
-    color: white;
-    font-family: fantasy;
+.home-button{
+    position: absolute;
+    left: 10px;
+    top: 12px;
+    border: 2px solid  lawngreen;
+    color:lawngreen;
+    width: 75px;
+    border-radius: 20px;
     text-decoration: none;
-    border-radius: 200px;
+    text-align: center;
+}
+.older-button{
+    position: absolute;
+    left: 90px;
+    top: 12px;
+    border: 2px solid  lawngreen;
+    color:lawngreen;
+    width: 100px;
+    border-radius: 20px;
+    text-decoration: none;
+    text-align: center;
 }
 
-ul.topnav {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-  font-family: arial;
-  text-align: left;
-  width: 100%;
-  position: sticky;
-  top: 0;
-}
-ul.topnav li {float: left;}
-ul.topnav li a {
-  display: block;
-  color: aqua;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  float: left;
-  font-size: 17px;
-  border-right: 1px solid aqua;
-}
-ul.topnav li a:hover:not(.active) {
-	background-color: white;
-    color: black;
-}
-ul.topnav li a.active {
-	background-color: #4CAF50;
-}
-ul.topnav li.right {
-	float: right;
-}
-@media screen and (max-width: 720px) {
-  ul.topnav li{
-	  width: 100%;
-  }
-  ul.topnav a{
-	  width: 100%;
-  }
+.header{
+    background-color: black;
+    height: 5vw;
 }

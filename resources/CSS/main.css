@@ -6,10 +6,10 @@
 }
 
 .header{
-    background-color: blue;
+/*    background-color: blue;*/
     padding: 20vw;
     text-align: center;
-    background-image: url(../Pictures/donny-jiang-EH_aX__-wG0-unsplash.jpg);
+    background-image:  url(../Pictures/donny-jiang-EH_aX__-wG0-unsplash.jpg);
     background-position: right;
     background-size: cover;
     color: aqua;
