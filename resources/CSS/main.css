@@ -74,6 +74,7 @@
 
 .row-one, .row-two, .row-three{
     width: 100%;
+    margin-bottom: 20px;
 }
 
 .contentAd{
@@ -88,6 +89,7 @@
 
 .adPic{
     width: 90%;
+    height: 220px
 }
 
 /***********************************************************************/
