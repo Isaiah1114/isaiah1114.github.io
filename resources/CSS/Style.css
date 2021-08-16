@@ -1,0 +1,70 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.backgroundImage{
+    background-color: grey;
+    height: 50vh;
+    background-image: url(../Images/warrior-yoga.jpg);
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.navButton {
+    background-color: floralwhite;
+    border-radius: 50px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    
+}
+
+.navButton:hover{
+    opacity: 75%;
+}
+
+.navBar{
+    
+    padding-top: 5vh;
+}
+
+.featured{
+    text-align: center;
+}
+.featItems{
+    overflow: auto;
+}
+
+footer{
+    background-color: lightgray;
+    height: 20vh;
+}
+
+.social{
+    margin: auto;
+    width: 30%;
+    padding: 20px;
+}
+
+#inst{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.footer{
+    background-color: lightgray;
+    padding = 10px;
+    color: black;
+    text-align: center;
+    height: 20vw;
+}
