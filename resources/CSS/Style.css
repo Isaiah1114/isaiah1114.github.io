@@ -41,6 +41,10 @@
 }
 .featItems{
     overflow: auto;
+    margin-left: 7vw;
+    margin-right: 7vw;
+    margin-bottom: 10px;
+    background-color: lightgray;
 }
 
 footer{
